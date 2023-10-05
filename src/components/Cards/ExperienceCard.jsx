@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Bio} from "../../data/constants";
+import {GitHubButton} from "../Navbar/NavbarStyledComponent";
 
 const Document = styled.img`
     display: none;
@@ -78,7 +80,7 @@ const Top = styled.div`
 const Image = styled.img`
     height: 50px;
     background-color: #000;
-    border-radius: 10px;
+    //border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
         height: 40px;
@@ -175,9 +177,10 @@ const ExperienceCard = ({ experience }) => {
                 }
             </Description>
             {experience.doc &&
-                <a href={experience.doc} target="new">
-                    <Document src={experience.doc} />
-                </a>
+              <GitHubButton href={experience.doc} target="_blank">Github Profile</GitHubButton>
+                // <a href={experience.doc} target="new">
+                //     <Document src={experience.doc} />
+                // </a>
             }
         </Card>
     )
