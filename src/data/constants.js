@@ -7,8 +7,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/SerhiiHavryliuk",
-  resume:
-    "https://drive.google.com/file/d/1YC0rZFwv9mZeDpU6CO6GhpqrzZ5FWAem/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1RqvHmt0-6uzH5a0GWiPTZvHY0JO1pYQy/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/serhiihavryliuk/",
   twitter: "#",
   insta: "#",
