@@ -20,6 +20,7 @@ flex-direction: column;
 width: 100%;
 max-width: 1100px;
 gap: 12px;
+  padding-bottom: 80px;
 @media (max-width: 960px) {
     flex-direction: column;
 }
